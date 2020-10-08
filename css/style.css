@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* HERO */
+
+.hero {
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.hero .logo {
+	margin-top: 60px;
+	width: 120px;
+	height: 40px;
+}
+
+.hero .title {
+	margin-top: 60px;
+	text-align: left;
+	letter-spacing: 0px;
+	opacity: 1;
+	font-size: 30px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 650;
+}
+.title span {
+	color: #38ccf5;
+}
+.hero .title-text {
+	margin-top: 30px;
+	font-size: 20px;
+    letter-spacing: 0.56px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 650;
+}
+
+.repeat {
+	padding-top: 30px;
+	top: 565px;
+	left: 174px;
+	width: 100px;
+}
+
+.artboard {
+	width: 528px;
+	margin-top: -70px;
+}
+
+.hero .mobtit{
+    display: none;
+}
+
+/* END    HERO   */
+
+/* FORM GROUP */
+
+.form .ell {
+	opacity: 0.6;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.form .rep {
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.form::before {
+    margin-top: 40px;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	background-image: url("../poze/Repeat%20Grid%202.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+.form::after {
+    margin-top: 40px;
+	content: "";
+	display: block;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../poze/Ellipse%208.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+.form {
+	position: relative;
+}
+.form .start-area {
+	position: relative;
+	max-width: 451px;
+	width: 100%;
+	z-index: 1;
+	margin: auto;
+    margin-top: 115px;
+}
+.start-area {
+	background: var(--unnamed-color-fbfbfb) 0% 0% no-repeat padding-box;
+	background: #fbfbfb 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 20px #00000029;
+	border-radius: 30px;
+	opacity: 1;
+}
+
+.start-area .start {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: center;
+font: normal normal bold 25px/35px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.start-area .yesno {
+	text-align: left;
+	margin-left: -30px;
+}
+.start-area .checkbox {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.start-area .monthly{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.start-area .fill{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/24px var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: center;
+font: normal normal normal 15px/24px Roboto;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.start-area .yesno .form-check-label {
+	font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: center;
+font: normal normal medium 16px/19px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.start-area .yesno .form-check-input {
+	background: #38ccf5 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.start-area .button {
+	background: transparent linear-gradient(180deg, var(--unnamed-color-ff6e4e) 0%, var(--unnamed-color-ff6e4e) 100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(180deg, #ff6e4e 0%, #ff6e4e 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 8px #00000029;
+	opacity: 1;
+	width: 350px;
+	height: 50px;
+	border-radius: 15px;
+	color: white;
+	letter-spacing: 0.6px;
+	font: normal normal bold 20px/24px Roboto;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.start-area .button:hover {
+	background: #ff6e6e;
+}
+.start-area h3{
+    display: none;
+}
+
+.start-area .btn{
+    display: none;
+}
+/* END  FORM GROUP */
+
+/* OFFER */
+
+.offer {
+	background: url(../poze/Group%20393.png);
+	background-size: cover;
+	padding: 180px 0;
+}
+.offer h4 {
+	text-align: right;
+	color: #38ccf5;
+	opacity: 1;
+	letter-spacing: 0px;
+	margin-right: 40px;
+	font: normal normal normal 29px/41px Roboto;
+}
+#offermobile {
+    display: none;
+}
+/* END OFFER */
+
+/* BENEFITS */
+.benefits h4 {
+	letter-spacing: 0px;
+	opacity: 1;
+    font-family: 'Roboto' sans-serif;
+    text-align: left;
+}
+.benefits span {
+	color: #38ccf5;
+}
+.benefits .bifa li {
+	list-style-type: none;
+	padding: 7px;
+	font: normal normal normal 20px/28px Roboto;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	font-size: 16px;
+}
+
+.benefits .benefitsmob {
+    display: none;
+}
+
+/* END BENEFITS */
+
+/* TESTIMONIALS */
+
+.test {
+	background: transparent linear-gradient(180deg, var(--unnamed-color-38ccf5) 0%, #3eccf5 0%, #42ccf5 16%, #36c1ee 38%, #119fd6 62%, #2a97bf 81%, #108abf 100%) 0% 0% no-repeat
+		padding-box;
+	background: transparent linear-gradient(180deg, #38ccf5 0%, #3eccf5 0%, #42ccf5 16%, #36c1ee 38%, #119fd6 62%, #2a97bf 81%, #108abf 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+	padding: 50px 0;
+	color: white;
+}
+.test li {
+	list-style-type: none;
+}
+.test .face {
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.firsttext {
+	font-size: 24px;
+	font-family: "Roboto";
+	display: inline-block;
+}
+
+.user-details {
+	display: inline-block;
+}
+.test .firsttext span{
+    font: var(--unnamed-font-style-normal) normal medium 24px/29px var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal medium 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+/* END TEST */
+
+/* NAVBAR  */
+
+.navbar a {
+	color: #fff !important;
+	font-size: 13px;
+}
+.navbar {
+	background: #595957 0% 0% no-repeat padding-box;
+}
+
+.navbar-nav {
+	margin-right: 20px;
+}
+
+.navbar-nav li {
+	padding: 0 25px;
+	margin-right: 20px;
+}
+.navbar-nav li a {
+	color: #fff !important;
+	text-align: left;
+	font-size: 13px;
+	float: left;
+}
+
+.social-icons a {
+	padding: 0 15px;
+	margin: 0;
+
+}
+
+.social-icons .fb img{
+    width: 10px;
+}
+.social-icons .ins img{
+    width: 20px;
+}
+.social-icons .tw img{
+    width: 20px;
+}
+/* END NAVBAR */
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    
+
+.hero .title{
+ font: var(--unnamed-font-style-normal) normal bold 30px/37px var(--unnamed-font-family-roboto);
+text-align: center;
+font: normal normal bold 31px/37px Roboto;
+letter-spacing: 0.9px;
+opacity: 1;
+
+             }
+    
+    .title span{
+        color: #FF6E4E;
+    }
+    .title-text{
+        text-align: center;
+    }
+    
+    .hero .firsttitle{
+        display: inline-block;
+        margin-top: 40px;
+	    
+        text-align: center;
+	    letter-spacing: 0.9px;
+	    opacity: 1;
+	    font-size: 31px;
+        font-weight: bold;
+        z-index: 1;
+    }
+    
+       .hero .mobtit .topright{
+        position: absolute;
+        width: 150px;
+        right: 0;
+        top: 0;
+        display: block;
+        
+        
+        
+    }
+    .hero .mobtit {
+    display: inline-block;
+}
+    
+    
+    .mobtit span{
+        letter-spacing: 0.9px;
+        color: #FF6E4E;
+    }
+    
+    .hero h1{
+        display: none;
+    }
+    .form::after{
+        display: none;
+    }
+    .form::before{
+        display: none;
+    }
+    .form .start-area{
+        margin-top: 0px;
+    }
+    .start-area h4{
+        display: none;
+    }
+    .start-area h3{
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Roboto';
+        color: #008CC9;
+        letter-spacing: 0.36px;
+        opacity: 1;
+    }
+    
+  
+    .start-area .fill{
+        display: none;
+    }
+    
+
+    
+    
+    .start-area .btn{
+        display: inline-block;
+        background: transparent linear-gradient(180deg, var(--unnamed-color-ff6e4e) 0%, var(--unnamed-color-ff6e4e) 100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(180deg, #ff6e4e 0%, #ff6e4e 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 8px #00000029;
+	opacity: 1;
+	width: 250px;
+	height: 50px;
+	border-radius: 15px;
+	color: white;
+	letter-spacing: 0.6px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+	margin-top: 20px;
+	font-size: 15px;
+    letter-spacing: 0.6px;
+    }
+    
+    
+    
+    .start-area .button{
+        display: none;
+    }
+    #offermobile{
+        display: inline-block;
+        background: url(../images/Group%20391.png) 0% 0% no-repeat padding-box;
+opacity: 1;
+        background-position: center center;
+        background-size: cover;
+        padding: 60px;
+        text-align: left;
+        color: #008CC9;
+        margin-bottom: 20px;
+    }
+    
+    #offermobile h4{
+        font-size: 25px;
+    }
+    #offer{
+        display: none;
+
+    }
+    
+    #offer h4{
+        display: none;
+        
+    }
+    .benefits h4{
+        display: none;
+    }
+    
+    .benefits .benefitsmob .topright{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        text-indent: -999em;
+        margin-top: 25px;
+    }
+    .benefits .benefitsmob {
+    display: inline-block;
+}
+    
+    
+    
+    .mobileben{
+        display: inline-block;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+    
+    .test .three .firsttext  img{
+    padding-right: 40px;
+    }
+    
+    .test .one .firsttext  img{
+        
+    }
+    
+    #nav-bar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
